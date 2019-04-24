@@ -4,5 +4,6 @@
     // (Code Runner) 言語毎の実行プログラムのパス指定
     "code-runner.executorMap": {
         "python": "/usr/local/bin/python3 -u",
+        "ruby": "/usr/bin/ruby",
     }
 }
