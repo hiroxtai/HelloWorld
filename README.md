@@ -5,5 +5,6 @@
 
 ## Languages
 * Java
+* Perl
 * Python
 * Ruby
