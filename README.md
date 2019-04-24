@@ -4,5 +4,6 @@
 * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 ## Languages
+* Java
 * Python
 * Ruby
