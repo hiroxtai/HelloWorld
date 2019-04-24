@@ -7,6 +7,7 @@
         "cpp": "/usr/bin/clang++ $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "java": "${JAVA_HOME}/bin/javac $fullFileName -d \"$workspaceRoot/bin\" && ${JAVA_HOME}/bin/java -cp \"$workspaceRoot/bin\" $fileNameWithoutExt",
         "javascript": "/usr/local/bin/node",
+        "objective-c": "/usr/bin/clang -framework Cocoa $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "perl": "/usr/bin/perl",
         "python": "/usr/local/bin/python3 -u",
         "ruby": "/usr/bin/ruby",
