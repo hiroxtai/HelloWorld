@@ -11,6 +11,7 @@
         "perl": "/usr/bin/perl",
         "python": "/usr/local/bin/python3 -u",
         "ruby": "/usr/bin/ruby",
+        "swift": "/usr/bin/swift",
         "typescript": "/usr/local/bin/ts-node",
     }
 }

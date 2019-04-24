@@ -14,6 +14,7 @@ brew install node
 * Objective-C
 * Perl
 * Python
+* Swift
 * TypeScript
 ```
 npm install -g typescript
