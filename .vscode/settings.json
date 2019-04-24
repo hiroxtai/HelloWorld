@@ -3,6 +3,7 @@
     "code-runner.runInTerminal": true,
     // (Code Runner) 言語毎の実行プログラムのパス指定
     "code-runner.executorMap": {
+        "c": "/usr/bin/clang $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "java": "${JAVA_HOME}/bin/javac $fullFileName -d \"$workspaceRoot/bin\" && ${JAVA_HOME}/bin/java -cp \"$workspaceRoot/bin\" $fileNameWithoutExt",
         "perl": "/usr/bin/perl",
         "python": "/usr/local/bin/python3 -u",
