@@ -8,7 +8,14 @@
 * C++
 * Java
 * JavaScript
-```brew install node```
+```
+brew install node
+```
 * Perl
 * Python
+* TypeScript
+```
+npm install -g typescript
+npm install -g ts-node
+```
 * Ruby
