@@ -13,6 +13,7 @@
         "php": "/usr/bin/php",
         "python": "/usr/local/bin/python3 -u",
         "ruby": "/usr/bin/ruby",
+        "rust": "/usr/local/bin/rustc $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "swift": "/usr/bin/swift",
         "typescript": "/usr/local/bin/ts-node",
     }

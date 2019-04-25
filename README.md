@@ -20,6 +20,8 @@ brew install node
 * Objective-C
 * Perl
 * Python
+* Ruby
+* Rust
 * Swift
 * TypeScript
 ```
