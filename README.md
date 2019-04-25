@@ -18,6 +18,7 @@ brew install mono
 ```
 brew install node
 ```
+* Kotlin
 * Objective-C
 * Perl
 * Python
