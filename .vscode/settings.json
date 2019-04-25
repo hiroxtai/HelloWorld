@@ -9,6 +9,7 @@
         "javascript": "/usr/local/bin/node",
         "objective-c": "/usr/bin/clang -framework Cocoa $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "perl": "/usr/bin/perl",
+        "php": "/usr/bin/php",
         "python": "/usr/local/bin/python3 -u",
         "ruby": "/usr/bin/ruby",
         "swift": "/usr/bin/swift",
