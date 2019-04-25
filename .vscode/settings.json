@@ -19,6 +19,7 @@
     },
     // (Code Runner) 拡張子毎の実行プログラムの指定
     "code-runner.executorMapByFileExtension": {
+        ".d": "/usr/local/bin/dmd $fullFileName -of=\"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         ".scala": "scalac $fullFileName -d \"$workspaceRoot/bin\" && scala -cp \"$workspaceRoot/bin\" $fileNameWithoutExt",
     }
 }

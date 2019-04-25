@@ -12,6 +12,7 @@ Install Visual Studio 2019 for Mac
 or
 brew install mono
 ```
+* D
 * Java
 * JavaScript
 ```
