@@ -1,7 +1,7 @@
 {
     // (Code Runner) ターミナルで実行する
     "code-runner.runInTerminal": true,
-    // (Code Runner) 言語毎の実行プログラムのパス指定
+    // (Code Runner) 言語毎の実行プログラムの指定
     "code-runner.executorMap": {
         "c": "/usr/bin/clang $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "cpp": "/usr/bin/clang++ $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
@@ -16,5 +16,9 @@
         "rust": "/usr/local/bin/rustc $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "swift": "/usr/bin/swift",
         "typescript": "/usr/local/bin/ts-node",
+    },
+    // (Code Runner) 拡張子毎の実行プログラムの指定
+    "code-runner.executorMapByFileExtension": {
+        ".scala": "scalac $fullFileName -d \"$workspaceRoot/bin\" && scala -cp \"$workspaceRoot/bin\" $fileNameWithoutExt",
     }
 }

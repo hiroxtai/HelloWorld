@@ -22,6 +22,7 @@ brew install node
 * Python
 * Ruby
 * Rust
+* Scala
 * Swift
 * TypeScript
 ```
