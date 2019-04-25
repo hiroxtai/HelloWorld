@@ -12,6 +12,7 @@
         "perl": "/usr/bin/perl",
         "php": "/usr/bin/php",
         "python": "/usr/local/bin/python3 -u",
+        "shellscript": "/bin/bash",
         "ruby": "/usr/bin/ruby",
         "rust": "/usr/local/bin/rustc $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "swift": "/usr/bin/swift",

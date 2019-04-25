@@ -4,6 +4,7 @@
 * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 ## Languages
+* Bash
 * C
 * C++
 * C#
