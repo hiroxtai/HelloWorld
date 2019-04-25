@@ -6,6 +6,12 @@
 ## Languages
 * C
 * C++
+* C#
+```
+Install Visual Studio 2019 for Mac
+or
+brew install mono
+```
 * Java
 * JavaScript
 ```
