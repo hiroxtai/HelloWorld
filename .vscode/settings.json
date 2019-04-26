@@ -6,6 +6,7 @@
         "c": "/usr/bin/clang $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "cpp": "/usr/bin/clang++ $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "csharp": "mcs $fullFileName -out:\"$workspaceRoot/bin/$fileNameWithoutExt\" && mono \"$workspaceRoot/bin/$fileNameWithoutExt\"",
+        "go": "/usr/local/bin/go run",
         "java": "${JAVA_HOME}/bin/javac $fullFileName -d \"$workspaceRoot/bin\" && ${JAVA_HOME}/bin/java -cp \"$workspaceRoot/bin\" $fileNameWithoutExt",
         "javascript": "/usr/local/bin/node",
         "objective-c": "/usr/bin/clang -framework Cocoa $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",

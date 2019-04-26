@@ -13,6 +13,7 @@
 * C#
 * D
 * Dart
+* Go
 * Java
 * JavaScript
 * Kotlin
