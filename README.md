@@ -14,6 +14,7 @@
 * D
 * Dart
 * Go
+* Groovy
 * Java
 * JavaScript
 * Kotlin
