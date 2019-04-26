@@ -1,5 +1,8 @@
 # HelloWorld Project of Visual Studio Code
 
+## Install
+* Visual Studio 2019 for Mac
+
 ## Install Plugins
 * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
@@ -8,17 +11,10 @@
 * C
 * C++
 * C#
-```
-Install Visual Studio 2019 for Mac
-or
-brew install mono
-```
 * D
+* Dart
 * Java
 * JavaScript
-```
-brew install node
-```
 * Kotlin
 * Objective-C
 * Perl
@@ -28,8 +24,4 @@ brew install node
 * Scala
 * Swift
 * TypeScript
-```
-npm install -g typescript
-npm install -g ts-node
-```
 * Ruby
