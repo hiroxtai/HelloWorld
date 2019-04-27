@@ -6,6 +6,7 @@
         "c": "/usr/bin/clang $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "cpp": "/usr/bin/clang++ $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "csharp": "mcs $fullFileName -out:\"$workspaceRoot/bin/$fileNameWithoutExt\" && mono \"$workspaceRoot/bin/$fileNameWithoutExt\"",
+        "clojure": "clj",
         "go": "/usr/local/bin/go run",
         "groovy": "/usr/local/bin/groovy",
         "java": "${JAVA_HOME}/bin/javac $fullFileName -d \"$workspaceRoot/bin\" && ${JAVA_HOME}/bin/java -cp \"$workspaceRoot/bin\" $fileNameWithoutExt",

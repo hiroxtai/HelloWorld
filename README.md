@@ -11,6 +11,7 @@
 * C
 * C++
 * C#
+* Clojure
 * D
 * Dart
 * Go
