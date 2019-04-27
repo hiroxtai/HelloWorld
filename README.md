@@ -1,8 +1,5 @@
 # HelloWorld Project of Visual Studio Code
 
-## Install
-* Visual Studio 2019 for Mac
-
 ## Install Plugins
 * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
@@ -28,4 +25,27 @@
 * Scala
 * Swift
 * TypeScript
-* Ruby
+
+## Install
+* Visual Studio 2019 for Mac
+* Homebrew
+    * clojure
+    * dart
+    * dmd
+    * go
+    * groovy
+    * kotlin
+    * node
+        * typescript
+        * ts-node
+    * python
+    * r
+    * rust
+    * scala
+
+## TODO
+* Haskell
+* Lisp
+* Erlang
+* Elixir
+* CoffieeScript
