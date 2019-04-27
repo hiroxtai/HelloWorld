@@ -21,6 +21,7 @@
 * Objective-C
 * Perl
 * Python
+* R
 * Ruby
 * Rust
 * Scala

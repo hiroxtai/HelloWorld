@@ -15,6 +15,7 @@
         "php": "/usr/bin/php",
         "python": "/usr/local/bin/python3 -u",
         "shellscript": "/bin/bash",
+        "r": "/usr/local/bin/Rscript",
         "ruby": "/usr/bin/ruby",
         "rust": "/usr/local/bin/rustc $fullFileName -o \"$workspaceRoot/bin/$fileNameWithoutExt\" && \"$workspaceRoot/bin/$fileNameWithoutExt\"",
         "swift": "/usr/bin/swift",
